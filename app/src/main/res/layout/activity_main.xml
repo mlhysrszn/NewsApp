@@ -1,18 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <data>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </data>
+
+    <FrameLayout
+        android:id="@+id/exFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/scrollview"
+                tools:context=".MainActivity">
+
+                <LinearLayout
+                    android:id="@+id/LinearL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/frag1"
+                        android:name="com.mlhysrszn.newsapp.BusinessNewsFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout="@layout/fragment_business_news" />
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/frag2"
+                        android:name="com.mlhysrszn.newsapp.ScienceNewsFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout="@layout/fragment_science_news" />
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/frag3"
+                        android:name="com.mlhysrszn.newsapp.TechnologyNewsFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout="@layout/fragment_technology_news" />
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/frag4"
+                        android:name="com.mlhysrszn.newsapp.BusinessNewsFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout="@layout/fragment_business_news" />
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/frag5"
+                        android:name="com.mlhysrszn.newsapp.ScienceNewsFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout="@layout/fragment_science_news" />
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/frag6"
+                        android:name="com.mlhysrszn.newsapp.TechnologyNewsFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout="@layout/fragment_technology_news" />
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/frag7"
+                        android:name="com.mlhysrszn.newsapp.BusinessNewsFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout="@layout/fragment_business_news" />
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/frag8"
+                        android:name="com.mlhysrszn.newsapp.ScienceNewsFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout="@layout/fragment_science_news" />
+
+                    <androidx.fragment.app.FragmentContainerView
+                        android:id="@+id/frag9"
+                        android:name="com.mlhysrszn.newsapp.TechnologyNewsFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:layout="@layout/fragment_technology_news" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>
