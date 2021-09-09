@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="news"
+            type="com.mlhysrszn.newsapp.News" />
     </data>
 
     <FrameLayout
@@ -17,7 +19,7 @@
             android:layout_height="200dp"
             android:background="@color/purple_200"
             android:gravity="center"
-            android:text="ScienceNewsFragment"
+            android:text="@{news.newsName}"
             android:textSize="20sp" />
 
     </FrameLayout>

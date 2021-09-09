@@ -12,9 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-//        val detailFragment = NewsDetailFragment.newInstance("MainActivity", "")
-//
-//        val fragmentTransaction = supportFragmentManager.beginTransaction()
-//        fragmentTransaction.replace(R.id.frag1, detailFragment).commit()
+        val fm = supportFragmentManager
+        Utils.addFragments(fm)
     }
 }

@@ -4,6 +4,9 @@
 
     <data>
 
+        <variable
+            name="news"
+            type="com.mlhysrszn.newsapp.News" />
     </data>
 
     <FrameLayout
@@ -17,7 +20,7 @@
             android:layout_height="200dp"
             android:background="@color/primary"
             android:gravity="center"
-            android:text="BusinessNewsFragment"
+            android:text="@{news.newsName}"
             android:textSize="20sp" />
 
     </FrameLayout>
