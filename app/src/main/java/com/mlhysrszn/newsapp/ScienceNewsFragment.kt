@@ -33,13 +33,12 @@ class ScienceNewsFragment : Fragment() {
         binding.news = news
         binding.root.setOnClickListener {
             val fm = parentFragmentManager
-            Toast.makeText(context, "ScienceNewsFragment", Toast.LENGTH_SHORT).show()
             val detailFragment = NewsDetailFragment.newInstance(news!!)
+            Utils.removeFragments(fm)
             parentFragmentManager
                 .beginTransaction()
                 .add(R.id.frag1, detailFragment)
                 .commit()
-            Utils.removeFragments(fm)
         }
     }
 

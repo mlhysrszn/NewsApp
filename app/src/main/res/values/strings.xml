@@ -2,4 +2,5 @@
     <string name="app_name">NewsApp</string>
     <string name="scrollview">ScrollView</string>
     <string name="news_pic">News Picture</string>
+    <string name="kekod_news_app">Kekod News App</string>
 </resources>

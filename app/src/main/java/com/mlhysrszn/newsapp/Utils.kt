@@ -59,9 +59,72 @@ object Utils {
                 "\n" +
                 "Warren accused the e-commerce giant of being \"either unwilling or unable to modify its business practices to prevent the spread of falsehoods or the sale of inappropriate products.\""
     )
+    private val businessNews4 = News(
+        R.drawable.business4,
+        "The lessons for investors from the trial of Theranos founder Elizabeth Holmes",
+        "Sometimes an investment is too good to be true.\n" +
+                "\n" +
+                "As Elizabeth Holmes, founder and former CEO of Theranos, goes on trial on allegations of defrauding investors and patients, her health-care start-up may be a prime example.\n" +
+                "\n" +
+                "Nearly a decade ago, investors, including media mogul Rupert Murdoch, former Education Secretary Betsy DeVos and the Walton family of Walmart fame, put more than \$700 million into the company.\n" +
+                "\n" +
+                "Prosecutors allege investors were swayed by misrepresentations of Theranos’ blood-testing technology.\n" +
+                "\n" +
+                "The company’s claims about its technology, as well as its business and financial performance were either exaggerated or false, according to the Securities and Exchange Commission.\n" +
+                "\n" +
+                "“The Theranos story is an important lesson for Silicon Valley,” Jina Choi, director of the SEC’s San Francisco Regional Office, said at the time charges were filed. \n" +
+                "\n" +
+                "“Innovators who seek to revolutionize and disrupt an industry must tell investors the truth about what their technology can do today, not just what they hope it might do someday.”\n" +
+                "\n" +
+                "“There’s going to be a lot of attention on what did Elizabeth Holmes know and when did she know it, but a better question is what should the investment community know and when should we know it?” said Len Sherman, professor of business at Columbia Business School.  \n" +
+                "\n" +
+                "Theranos isn’t the only bad apple out there, it’s just the most recent example of one.\n" +
+                "\n" +
+                "Other black eyes for the industry include uBiome, which was investigated by the FBI for fraudulent billing, and Outcome Health, a health-care advertising company that provided misleading information to drugmakers on where their ads were showing up and how they performed.\n" +
+                "\n" +
+                "Of course, fraud extends far beyond health care.\n" +
+                "\n" +
+                "Corporate malfeasance comes in waves, Sherman said, from Enron and WorldCom to Bernie Madoff and now Theranos. “We are in another era that has conditions that are conducive to promoting fraud.” \n" +
+                "\n" +
+                "How to spot a problem\n" +
+                "“It’s important that we don’t assume that every company is like a Theranos, we just need to ask the right questions,” said Ruby Gadelrab, founder and CEO of MDisrupt, a medical diligence company for the health-tech industry, which aims to avoid making similar mistakes in the future.\n" +
+                "\n" +
+                "“Health care, as a whole, is complex,” Gadelrab said. “It’s probably the hardest area to invest in.”\n" +
+                "\n" +
+                "To help investors vet health-technology companies, Gadelrab suggests first establishing if the product is clinically and commercially viable.\n" +
+                "\n" +
+                "“Investors do technical and financial diligence using experts, in health care we need to do medical diligence using health-care experts.”\n" +
+                "\n"
+    )
+    private val businessNews5 = News(
+        R.drawable.business5,
+        "Amazon fights high warehouse turnover with offer of free college tuition",
+        "As Amazon struggles to staff its warehouses, it’s joining other large employers by offering to pay for college tuition in an attempt to attract and retain hourly employees.\n" +
+                "\n" +
+                "The e-commerce giant announced Thursday that it would be broadening its education benefits by offering more than 750,000 employees the opportunity to attend college or finish high school for free. Employees only have to work at the company for 90 days to be eligible, and if they leave, they do not have to reimburse Amazon for any tuition or fees paid during their time with the company.\n" +
+                "\n" +
+                "Notably, it’s not a reimbursement program—Amazon is paying tuition and fees up front so employees don’t have to dip into savings to enroll. The company expects to roll out the new benefits in January. In addition to bachelor’s and associate’s degrees and GEDs, the program will cover English as a second language certifications. Amazon also announced skill training and apprenticeship programs for entry-level employees working in AWS and other IT positions. So long as an employee works for Amazon, they'll be able to use the benefit, potentially earning multiple degrees or certifications if they so choose.\n" +
+                "\n" +
+                "Full-time employees are eligible for the fully subsidized tuition, while part-time workers logging as few as 20 hours per week will receive half the benefit. Though the company still has details to work out, it says that employees can use the benefit at “hundreds of education partners across the country.” Workers may be limited in terms of which degree programs they could apply to, and the programs may vary by region. Ardine Williams, the company’s vice president of workforce development, told The Wall Street Journal that she expects the company will subsidize degrees in technology, engineering, and health care. The expanded benefit goes well beyond what Amazon previously offered—95 percent of the cost of an associate’s degree or other certification.\n" +
+                "One potential hitch could be scheduling, though Amazon says that it will provide flexible work schedules for students accommodate both school and work.\n" +
+                "\n" +
+                "In total, Amazon anticipates the programs will cost \$1.2 billion by 2025. Last year, the company made \$21.3 billion in profit on \$386 billion in revenue. Other companies like Walmart, Target, Chipotle, and JBS, a meat processor, offer comparable tuition subsidy programs, according to The Wall Street Journal.\n" +
+                "\n" +
+                "Retention strategy\n" +
+                "The move comes as Amazon has encountered high turnover at its front-line operations, particularly its warehouses. Since the pandemic began, Amazon says that it has hired 400,000 new workers who are eligible for the perk. Some of that has come as a result of expanded operations, but much of it is the result of people quitting. Among hourly employees, the turnover rate is 3 percent per week or about 150 percent per year, according to a New York Times investigation. In other words, in a single year, Amazon has to hire the equivalent of one-and-a-half times its entire hourly staff.\n" +
+                "\n" +
+                "The education benefit may help lower that rate somewhat, Chris O’Leary, a senior economist at the WE Upjohn Institute for Employment Research, told The Wall Street Journal. “They might be able to get enough productive months or years out of somebody to make it worth the investment.”\n" +
+                "The economic recovery has driven a hiring boom that has left workers in high demand. Increased wages have helped employers staff up to some extent, but that hasn’t tamped workers' desires to advance in their careers, not simply get paid a bit more. (Still, don’t discount the financial motivation—people who finish some college make around 20 percent more than those with only a high school diploma, and those who have a bachelor’s earn about 80 percent more.)\n" +
+                "\n" +
+                "Education benefits may help attract employees who are more willing to endure working conditions in Amazon’s warehouses. Workers are tracked as they complete tasks around the warehouse and pushed to finish them faster. That has led to heightened injury rates, according to one investigation, and instances where workers say they’ve skipped breaks to stay on top of their tasks.\n" +
+                "\n" +
+                "California’s legislature has taken up the issue with a bill that aims to limit the use of algorithmic monitoring and quotas that can lead to unsafe conditions. The legislation would require companies to disclose productivity quotas to government agencies and employees alike, and it would forbid employers from establishing quotas that prevent workers from taking legally mandated breaks or skipping trips to the bathroom."
+    )
     private val business1 = BusinessNewsFragment.newInstance(businessNews1)
     private val business2 = BusinessNewsFragment.newInstance(businessNews2)
     private val business3 = BusinessNewsFragment.newInstance(businessNews3)
+    private val business4 = BusinessNewsFragment.newInstance(businessNews4)
+    private val business5 = BusinessNewsFragment.newInstance(businessNews5)
 
     private val scienceNews1 = News(
         R.drawable.science1,
@@ -107,9 +170,63 @@ object Utils {
                 "\n" +
                 "The Inspiration4 crew was announced in March and soon began a six-month training regimen. That work included \"centrifuge training, Dragon simulations, observations of other SpaceX launch operations, Zero-G plane training, altitude training and additional classroom, simulation and medical testing,\" Inspiration4 representatives wrote in a statement last week. \"This focused preparation was essential in team development and being ready to execute their role as the first commercial crew to orbit the Earth.\""
     )
+    private val scienceNews4 = News(
+        R.drawable.science4,
+        "Spectacular valleys and cliffs hidden beneath the North Sea",
+        "Like a bowl of spaghetti noodles spilled across the floor of the North Sea, a vast array of hidden tunnel valleys wind and meander across what was once an ice-covered landscape. \n" +
+                "\n" +
+                "These valleys are remnants of ancient rivers that once drained water from melting ice sheets.\n" +
+                "\n" +
+                "Now, scientists have achieved the clearest view yet of these channels. They're buried hundreds of feet beneath the seafloor, and they are enormous, ranging from about 0.6 to 3.7 miles (1 to 6 kilometers) wide.\n" +
+                "\n" +
+                "The new imaging reveals fine-grained details within these expansive features: small, delicate ridges of sediment, larger walls of sediment that can be miles long and craters called kettle holes left behind by melting chunks of ice.\n" +
+                "\n" +
+                "Related: See photos of Earth's vanishing ice\n" +
+                "\n" +
+                "\"We didn't expect to find these kinds of footprints of the ice sheet within the channels themselves,\" said study lead author James Kirkham, a marine geophysicist at the British Antarctic Survey and the University of Cambridge. \"And that tells us, actually, that the ice was interacting with the channels a lot more than previously assumed.\"\n" +
+                "\n" +
+                "Footprints of glaciers\n" +
+                "These channels are the footprints of glaciers left behind from between 700,000 and 100,000 years ago, when most of the North Sea, as well as the northern two-thirds of the United Kingdom and all of Ireland were often buried under huge ice sheets. (The ice advanced and retreated seven or eight times within this period, Kirkham told Live Science.)\n" +
+                "\n" +
+                "During periods when the climate warmed and the ice retreated, these ice sheets discharged water through hidden glacial channels beneath the ice. These channels left their imprint on the sediments below. More sediments then piled on top as the ice vanished, entombing the imprints deep beneath the seafloor.\n" +
+                "\n" +
+                "To see these ancient impressions, geophysicists use a technology called 3D seismic reflection. In this process, scientists shoot bursts of compressed air toward the seafloor. The resulting sound waves travel through the rock and sediment layers beneath the seafloor and bounce back, where they're picked up by a shipboard receiver. Because sound travels at different speeds through different types of rock and sediment, the data can be reconstructed into a picture of the subsurface.\n" +
+                "\n" +
+                "A map of the undersea tunnel valleys looks like a vast array of squiggles, like a scattering of spilled noodles. But zoomed in, the channels are visible in stunning detail. They meander and wind like rivers (which they once were), bounded by shear cliffs and rugged slopes. Some plummet 310 miles (500 km) deep into the sediment and are dozens of miles long."
+    )
+    private val scienceNews5 = News(
+        R.drawable.science5,
+        "New programmable gene editing proteins found outside of CRISPR systems",
+        "Within the last decade, scientists have adapted CRISPR systems from microbes into gene editing technology, a precise and programmable system for modifying DNA. Now, scientists at MIT's McGovern Institute and the Broad Institute of MIT and Harvard have discovered a new class of programmable DNA modifying systems called OMEGAs (Obligate Mobile Element Guided Activity), which may naturally be involved in shuffling small bits of DNA throughout bacterial genomes.\n" +
+                "\n" +
+                "\n" +
+                "These ancient DNA-cutting enzymes are guided to their targets by small pieces of RNA. While they originated in bacteria, they have now been engineered to work in human cells, suggesting they could be useful in the development of gene editing therapies, particularly as they are small (~30% the size of Cas9), making them easier to deliver to cells than bulkier enzymes. The discovery, reported in the journal Science, provides evidence that natural RNA-guided enzymes are among the most abundant proteins on earth, pointing toward a vast new area of biology that is poised to drive the next revolution in genome editing technology.\n" +
+                "\n" +
+                "The research was led by McGovern investigator Feng Zhang, who is James and Patricia Poitras Professor of Neuroscience at MIT, a Howard Hughes Medical Institute investigator, and a core institute member of the Broad Institute. Zhang's team has been exploring natural diversity in search of new molecular systems that can be rationally programmed.\n" +
+                "\n" +
+                "\"We are super excited about the discovery of these widespread programmable enzymes, which have been hiding under our noses all along,\" says Zhang. \"These results suggest the tantalizing possibility that there are many more programmable systems that await discovery and development as useful technologies.\"\n" +
+                "\n" +
+                "Programmable enzymes, particularly those that use an RNA guide, can be rapidly adapted for different uses. For example, CRISPR enzymes naturally use an RNA guide to target viral invaders, but biologists can direct Cas9 to any target by generating their own RNA guide. \"It's so easy to just change a guide sequence and set a new target,\" says graduate student and co-first author of the paper, Soumya Kannan. \"So one of the broad questions that we're interested in is trying to see if other natural systems use that same kind of mechanism.\"\n" +
+                "\n" +
+                "The first hints that OMEGA proteins might be directed by RNA came from the genes for proteins called IscBs. The IscBs are not involved in CRISPR immunity and were not known to associate with RNA, but they looked like small, DNA-cutting enzymes. The team discovered that each IscB had a small RNA encoded nearby and it directed IscB enzymes to cut specific DNA sequences. They named these RNAs \"ωRNAs.\"\n" +
+                "\n" +
+                "The team's experiments showed that two other classes of small proteins known as IsrBs and TnpBs, one of the most abundant genes in bacteria, also use ωRNAs that act as guides to direct the cleavage of DNA.\n" +
+                "\n" +
+                "IscB, IsrB, and TnpB are found in mobile genetic elements called transposons. Graduate student Han Altae-Tran, co-first author on the paper, explains that each time these transposons move, they create a new guide RNA, allowing the enzyme they encode to cut somewhere else.\n" +
+                "\n" +
+                "It's not clear how bacteria benefit from this genomic shuffling—or whether they do at all. Transposons are often thought of as selfish bits of DNA, concerned only with their own mobility and preservation, Kannan says. But if hosts can \"co-opt\" these systems and repurpose them, hosts may gain new abilities, as with CRISPR systems which confer adaptive immunity.\n" +
+                "\n" +
+                "IscBs and TnpBs appear to be predecessors of Cas9 and Cas12 CRISPR systems. The team suspects they, along with IsrB, likely gave rise to other RNA-guided enzymes, too—and they are eager to find them. They are curious about the range of functions that might be carried out in nature by RNA-guided enzymes, Kannan says, and suspect evolution likely already took advantage of OMEGA enzymes like IscBs and TnpBs to solve problems that biologists are keen to tackle.\n" +
+                "\n" +
+                "\"A lot of the things that we have been thinking about may already exist naturally in some capacity,\" says Altae-Tran. \"Natural versions of these types of systems might be a good starting point to adapt for that particular task.\"\n" +
+                "\n" +
+                "The team is also interested in tracing the evolution of RNA-guided systems further into the past. \"Finding all these new systems sheds light on how RNA-guided systems have evolved, but we don't know where RNA-guided activity itself comes from,\" Altae-Tran says. Understanding those origins, he says, could pave the way to developing even more classes of programmable tools."
+    )
     private val science1 = ScienceNewsFragment.newInstance(scienceNews1)
     private val science2 = ScienceNewsFragment.newInstance(scienceNews2)
     private val science3 = ScienceNewsFragment.newInstance(scienceNews3)
+    private val science4 = ScienceNewsFragment.newInstance(scienceNews4)
+    private val science5 = ScienceNewsFragment.newInstance(scienceNews5)
 
     private val techNews1 = News(
         R.drawable.technology1,
@@ -184,31 +301,87 @@ object Utils {
                     "\n" +
                     "As a welcome change given the franchise's usual \"it'll be done when it's done\" approach, Gran Turismo 7 announced a March 4 launch on PS4 and PS5. The news was accompanied by an operatic montage trailer that was as polished as you'd expect from Kazunori Yamauchi's detail-precise team at Polyphony Digital, highlighting the game's arcade circuits, a complicated-looking photo mode, a livery editor, reams and reams of meteorological data used to create photo-real weather and lighting, and, finally, the return of campaign mode. Though a new numbered GT is always something to look forward to, bringing back a real campaign is a huge victory for fans after its absence in Gran Turismo Sport."
         )
+    private val techNews4 = News(
+        R.drawable.technology4,
+        "Epic Games vs. Apple Judgment Allows App Store Developers to Link to Alternative Payment Methods",
+        "A decision was reached today in the high-profile Epic Games v. Apple trial, with U.S. District Judge Yvonne Gonzalez Rogers ruling that Apple's anti-steering conduct is anti-competitive, and ruling in favor of Apple on all other counts.\n" +
+                "\n" +
+                "In a 185-page ruling, Judge Rogers said \"the Court cannot ultimately conclude that Apple is a monopolist under either federal or state antitrust laws,\" but she said the trial \"did show that Apple is engaging in anticompetitive conduct under California's competition laws.\" Rogers concluded that \"Apple's anti-steering provisions hide critical information from consumers and illegally stifle consumer choice\":\n" +
+                "\n" +
+                "Having defined the relevant market as digital mobile gaming transactions, the Court next evaluated Apple's conduct in that market. Given the trial record, the Court cannot ultimately conclude that Apple is a monopolist under either federal or state antitrust laws. While the Court finds that Apple enjoys considerable market share of over 55% and extraordinarily high profit margins, these factors alone do not show antitrust conduct. Success is not illegal. The final trial record did not include evidence of other critical factors, such as barriers to entry and conduct decreasing output or decreasing innovation in the relevant market. The Court does not find that it is impossible; only that Epic Games failed in its burden to demonstrate Apple is an illegal monopolist.\n" +
+                "\n" +
+                "Nonetheless, the trial did show that Apple is engaging in anticompetitive conduct under California's competition laws. The Court concludes that Apple’s anti-steering provisions hide critical information from consumers and illegally stifle consumer choice. When coupled with Apple's incipient antitrust violations, these anti-steering provisions are anticompetitive and a nationwide remedy to eliminate those provisions is warranted.\n" +
+                "\n" +
+                "Judge Rogers thus issued a permanent injunction that requires Apple to let U.S. developers direct customers to payment options other than Apple's in-app purchase system:\n" +
+                "\n" +
+                "Apple Inc. and its officers, agents, servants, employees, and any person in active concert or participation with them (\"Apple\"), are hereby permanently restrained and enjoined from prohibiting developers from (i) including in their apps and their metadata buttons, external links, or other calls to action that direct customers to purchasing mechanisms, in addition to In-App Purchasing and (ii) communicating with customers through points of contact obtained voluntarily from customers through account registration within the app.\n" +
+                "\n" +
+                "Apple already announced last week that, starting in early 2022, it would allow developers of \"reader\" apps like Netflix, Spotify, and the Amazon Kindle app to include an in-app link to their website for users to set up or manage an account. If this ruling is upheld, however, Apple will be required to extend this allowance to all types of apps. The ruling also ensures that developers would be able to explicitly mention alternative payment options.\n" +
+                "\n" +
+                "The saga began in August 2020, when Apple removed Fortnite from the App Store after Epic Games introduced a direct payment option in the app, in defiance of the App Store rules. In an orchestrated move, Epic Games promptly filed a lawsuit against Apple, accusing Apple of having a monopoly over the sale of apps and in-app purchases through the App Store. (See our timeline of events surrounding the trial for more details.)\n" +
+                "\n" +
+                "Judge Rogers ruled that Epic Games shall pay damages equal to 30% of the \$12,167,719 in revenue that Epic Games collected from users in the Fortnite app on iOS through the direct payment option between August 2020 and October 2020, plus 30% of any such revenue Epic Games collected from November 1, 2020 through the date of judgment, plus interest.\n" +
+                "\n" +
+                "Apple is likely to appeal the decision. We've reached out to the company for comment and we will update this story if we hear back.\n" +
+                "\n" +
+                "Update: Apple has issued the following statement, as shared by Nick Statt:\n" +
+                "\n" +
+                "Today the Court has affirmed what we've known all along: the App Store is not in violation of antitrust law. As the Court recognized 'success is not illegal.' Apple faces rigorous competition in every segment in which we do business, and we believe customers and developers choose us because our products and services are the best in the world. We remain committed to ensuring the App Store is a safe and trusted marketplace that supports a thriving developer community and more than 2.1 million U.S. jobs, and where rules apply equally to everyone.\n" +
+                "\n" +
+                "The court documents associated with the ruling are embedded below."
+    )
+    private val techNews5 = News(
+        R.drawable.technology5,
+        "The Apple Watch Series 7 May Not Be Too Delayed After All",
+        "For the last few months, the Apple Watch Series 7 was expected to debut alongside the iPhone 13 lineup next Tuesday. However, recent reports about production issues cast some doubts over that timeline. Now, it looks like the smartwatch is back on track to ship later this month.\n" +
+                "\n" +
+                "The news comes from a new investor report from good, ole reliable Apple analyst Ming-Chi Kuo (via MacRumors). In November, Kuo said that the Series 7 was due for a significant redesign, and in recent weeks, leaked images of the Series 7 seemed to show a slightly larger screen and a flat-edge design reminiscent of the iPhone 12. Last week, Nikkei Asia and Bloomberg both wrote that the new design was causing problems with test production, delaying the watches from entering mass production as previously planned.\n" +
+                "\n" +
+                "Kuo’s latest report adds a little more detail. The Series 7 purportedly has a more durable display panel that uses a new contact design that required a new production process. It also needed to use new suppliers, including LG Display, Young Poong, and Jabil to help with more efficient and economical OLED production. Kuo says that issues surrounding this panel module have since been resolved by making adjustments through a series of design experiments. As a result, Kuo says he expects mass production for the Series 7 to begin in mid-September and for shipments to begin in late September.\n" +
+                "\n" +
+                "This makes it a lot more likely that we’ll actually hear an announcement about the Series 7 next week, though it may not be immediately available. This has been echoed by Bloomberg’s Mark Gurman, who predicted last week that the watch would be announced next week but would ship late, or in smaller quantities.\n" +
+                "\n" +
+                "It’s not a Kuo report if we don’t hear a little something about future Apple products as well. This time around, Kuo mentioned he’s optimistic for next year’s Apple Watch, as it will include new health features—specifically, the ability to measure temperature. This dovetails with a recent Wall Street Journal report that contends Apple is working on a number of advanced health features, including the ability to measure blood pressure and body temperature. The body temperature sensor will reportedly help give users more insight into fertility planning. There are also a ton of other functions that a body temperature sensor could be useful for. Recovery trackers like Whoop and Oura Ring use them to evaluate the quality of sleep, while other researchers have been studying whether skin temperature data from wearables could potentially help detect infectious diseases."
+    )
     private val tech1 = TechnologyNewsFragment.newInstance(techNews1)
     private val tech2 = TechnologyNewsFragment.newInstance(techNews2)
     private val tech3 = TechnologyNewsFragment.newInstance(techNews3)
+    private val tech4 = TechnologyNewsFragment.newInstance(techNews4)
+    private val tech5 = TechnologyNewsFragment.newInstance(techNews5)
 
     fun removeFragments(fm: FragmentManager) {
         fm.beginTransaction().remove(business1).commit()
         fm.beginTransaction().remove(business2).commit()
         fm.beginTransaction().remove(business3).commit()
+        fm.beginTransaction().remove(business4).commit()
+        fm.beginTransaction().remove(business5).commit()
         fm.beginTransaction().remove(science1).commit()
         fm.beginTransaction().remove(science2).commit()
         fm.beginTransaction().remove(science3).commit()
+        fm.beginTransaction().remove(science4).commit()
+        fm.beginTransaction().remove(science5).commit()
         fm.beginTransaction().remove(tech1).commit()
         fm.beginTransaction().remove(tech2).commit()
         fm.beginTransaction().remove(tech3).commit()
+        fm.beginTransaction().remove(tech4).commit()
+        fm.beginTransaction().remove(tech5).commit()
     }
 
     fun addFragments(fm: FragmentManager) {
         fm.beginTransaction().add(R.id.frag1, business1).commit()
         fm.beginTransaction().add(R.id.frag2, business2).commit()
         fm.beginTransaction().add(R.id.frag3, business3).commit()
-        fm.beginTransaction().add(R.id.frag4, science1).commit()
-        fm.beginTransaction().add(R.id.frag5, science2).commit()
-        fm.beginTransaction().add(R.id.frag6, science3).commit()
-        fm.beginTransaction().add(R.id.frag7, tech1).commit()
-        fm.beginTransaction().add(R.id.frag8, tech2).commit()
-        fm.beginTransaction().add(R.id.frag9, tech3).commit()
+        fm.beginTransaction().add(R.id.frag4, business4).commit()
+        fm.beginTransaction().add(R.id.frag5, business5).commit()
+        fm.beginTransaction().add(R.id.frag6, science1).commit()
+        fm.beginTransaction().add(R.id.frag7, science2).commit()
+        fm.beginTransaction().add(R.id.frag8, science3).commit()
+        fm.beginTransaction().add(R.id.frag9, science4).commit()
+        fm.beginTransaction().add(R.id.frag10, science5).commit()
+        fm.beginTransaction().add(R.id.frag11, tech1).commit()
+        fm.beginTransaction().add(R.id.frag12, tech2).commit()
+        fm.beginTransaction().add(R.id.frag13, tech3).commit()
+        fm.beginTransaction().add(R.id.frag14, tech4).commit()
+        fm.beginTransaction().add(R.id.frag15, tech5).commit()
     }
 }
