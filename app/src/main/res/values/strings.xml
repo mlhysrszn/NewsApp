@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NewsApp</string>
     <string name="scrollview">ScrollView</string>
+    <string name="news_pic">News Picture</string>
 </resources>
